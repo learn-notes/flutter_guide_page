@@ -8,7 +8,7 @@
          FlutterApplication and put your custom class here. -->
     <application
         android:name="io.flutter.app.FlutterApplication"
-        android:label="flutter_guide_page"
+        android:label="flutter引导页"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

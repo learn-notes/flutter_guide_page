@@ -40,14 +40,14 @@ class _HomeState extends State<Home> {
     return ListView(
       children: <Widget>[
         RaisedButton(
-            child: Text('原案例'),
+            child: Text('参考案例'),
             onPressed: () {
               /// 页面跳转
               Navigator.push(
                   context, MaterialPageRoute(builder: (_) => GuideOnePage()));
             }),
         RaisedButton(
-            child: Text('改动案例'),
+            child: Text('引导页案例'),
             onPressed: () {
               /// 页面跳转
               Navigator.push(
